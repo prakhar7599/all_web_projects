@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <div class="main">
+  <div class="logo"><img src="quiz.png" width="100%" height="250px" alt=""></div>
+   <div class="box">
+    <div class="questions">
+        <h2 class="qn">Question</h2>
+        <hr>
+       
+        <input type="radio" id="options" value="a" name="option">
+        <label class="opt1" for="option">a) option1</label>
+        <br>
+
+        <input type="radio" id="options" value="b" name="option">
+        <label class="opt2" for="option">b) option2</label>
+        <br>
+        
+        <input type="radio" id="options" value="c" name="option">
+        <label class="opt3" for="option">c) option3</label>
+        <br>
+        
+        <input type="radio" id="options" value="d" name="option">
+        <label class="opt4" for="option">d) option4</label>
+        <br>
+        <p id="choice" "></p>
+        <div class="side-buttons">
+          <button class="side-left">&#9664</button>
+          <button class="side-right">&#x25b6;</button>
+        </div>
+       
+        <button class="submit">Submit</button>
+    </div>
+   </div>
+ </div>
+ <script src="app.js"></script>
+</body>
+</html>
